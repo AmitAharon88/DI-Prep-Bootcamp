@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ALImentor</title>
+    <link href="style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a class="navLinks" href="#about"> About</a>
+        <a class="navLinks" href="#how-it-works">How it Works</a>
+        <a class="navLinks" href="#our-mentors">Our Mentors</a>
+        <a class="navLinks" href="#join">Sign In</a>
+        <a class="navLinks" href="#join">Join</a>
+      </nav>
+      <div id="intro">
+        <div id="headerContainer">
+          <span id="header">ALI<span class="lighter">mentor</span></span>
+        </div>
+        <img src="hero.png" alt="people celebrating" style="width: 100%" />
+      </div>
+    </header>
+  </body>
+  <section id="about">
+    <p>
+      Congratulations! You have moved to Israel. If you are feeling a bit lost,
+      we am pleased to let you know that you your not alone.
+    </p>
+    <p>
+      <span class="bold">ALI</span><span class="lighter">mentor</span> is proud
+      to say "We've got your back!" Our mission is to provide Olim Hadashim (new
+      immigrants to Israel) a helping and guiding hand by setting them up with a
+      personal Aliyah mentor who will be with them every step of the way. Our
+      mentors are the go-to person for any assistance needed.
+    </p>
+    <p>
+      <span class="bold">ALI</span><span class="lighter">mentor</span> works
+      together with the Misrad haKlita to provide free service to all olim
+      hadashim.
+    </p>
+  </section>
+  <section>
+    <h2>Get Assistance With</h2>
+    <div id="health">
+      <h3 class="aid">Health Insurance</h3>
+      <img class="assistanceIcon1" src="medicine.gif" alt="medical symbol" />
+    </div>
+    <br />
+    <div id="home">
+      <img class="assistanceIcon2" src="home.gif" alt="House symbol" />
+      <h3 class="aid">Housing</h3>
+    </div>
+    <br />
+    <div id="edu">
+      <h3 class="aid">Education</h3>
+      <img class="assistanceIcon1" src="hat.gif" alt="college hat symbol" />
+    </div>
+    <br />
+    <div id="money">
+      <img
+        class="assistanceIcon2"
+        src="save-money.gif"
+        alt="piggy bank symbol"
+      />
+      <h3 class="aid">Financial Aid</h3>
+    </div>
+  </section>
+  <section id="how-it-works">
+    <h2 class="h2Section">How it Works</h2>
+    <div id="steps">
+      <div class="stepdescription">
+        <p class="stepTitle">Sign Up</p>
+        <p>
+          through the <span class="bold">ALI</span
+          ><span class="lighter">mentor</span> website to receive full access to
+          our services free of charge.
+        </p>
+      </div>
+      <div class="stepdescription">
+        <p class="stepTitle">Schedule an Interview</p>
+        <p>with HR staff to determine what services are recommened for you.</p>
+      </div>
+      <div class="stepdescription">
+        <p class="stepTitle">Meet your Mentor</p>
+        <p>
+          Schedule a meeting with your mentor and get the ball rolling to an
+          easier Aliyah.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section id="our-mentors">
+    <h2 class="h2Section">
+      Meet our <span class="bold">ALI</span><span class="lighter">mentor</span>
+    </h2>
+    <div id="mentorIdCards">
+      <div class="mentorIdCardsSpecific">
+        <h3 class="mentorName">Michal</h3>
+        <img class="mentorImg" src="Michal.jpeg" alt="Picture of Michal" />
+      </div>
+      <div class="mentorIdCardsSpecific">
+        <h3 class="mentorName">Zohar</h3>
+        <img class="mentorImg" src="Zohar.jpeg" alt="Picture of Zohar" />
+      </div>
+      <div class="mentorIdCardsSpecific">
+        <h3 class="mentorName">Debi</h3>
+        <img class="mentorImg" src="Debi.jpeg" alt="Picture of Debi" />
+      </div>
+      <div class="mentorIdCardsSpecific">
+        <h3 class="mentorName">Eva</h3>
+        <img class="mentorImg" src="Eva.jpeg" alt="Picture of Eva" />
+      </div>
+    </div>
+  </section>
+  <section id="join">
+    <div id="getStartedHeader">
+      <img class="loginIcon" src="login2.gif" alt="login symbol" />
+      <h2 class="h2Section">Get Started</h2>
+    </div>
+    <div id="enter">
+      <div class="enterForm">
+        <h3 class="enterType">Join</h3>
+        <form class="enterInfo1" action="#" method="post">
+          <label>Full Name: </label><input type="text" name="fullName" />
+          <br />
+          <label>Email: </label><input type="email" name="email" required />
+          <br />
+          <label>Password: </label
+          ><input type="password" name="password" minlength="5" required />
+          <br />
+          <label>Verify Password: </label
+          ><input
+            type="password"
+            name="verifyPassword"
+            minlength="5"
+            required
+          /><br />
+          <div class="button" id="bottonJoin">
+            <input type="submit" value="Join" />
+          </div>
+        </form>
+      </div>
+      <div class="enterForm">
+        <h3 class="enterType">Sign in</h3>
+        <form class="enterInfo2" action="#" method="post">
+          <label>Email: </label><input type="email" name="email" required />
+          <br />
+          <label>Password: </label
+          ><input type="password" name="password" minlength="5" required />
+          <br />
+          <div id="checkbox">
+            <input type="checkbox" name="newsletter" />Sign up for our
+            Newsletter<br />
+          </div>
+          <div class="button">
+            <input type="submit" value="Enter" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p id="footer">
+      Copyright 2023 by <span class="bold">ALI</span
+      ><span class="lighter">mentor</span>. All Rights Reserved.
+    </p>
+  </footer>
+</html>

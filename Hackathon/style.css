@@ -1,0 +1,238 @@
+html {
+  font-family: helvetica;
+}
+
+nav {
+  font-size: 18px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+}
+
+.navLinks:link {
+  color: black;
+}
+
+.navLinks:hover {
+  color: #3cc;
+}
+
+.navLinks {
+  text-decoration: none;
+}
+
+#header {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+#intro {
+  position: relative;
+}
+#headerContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.lighter {
+  font-weight: lighter;
+  font-family: "Sacramento", cursive;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+header img {
+  display: flex;
+  justify-content: center;
+}
+
+#about {
+  text-align: center;
+  font-size: 20px;
+  margin: 50px 80px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.h2Section {
+  margin-top: 100px;
+}
+
+.aid {
+  font-size: 25px;
+  font-weight: normal;
+}
+.assistanceIcon1 {
+  width: 70px;
+  height: 70px;
+  margin-left: 15px;
+}
+
+.assistanceIcon2 {
+  width: 70px;
+  height: 70px;
+  margin-right: 15px;
+}
+
+#health {
+  display: flex;
+  justify-content: center;
+}
+
+#home {
+  display: flex;
+  justify-content: center;
+}
+
+#edu {
+  display: flex;
+  justify-content: center;
+}
+
+#money {
+  display: flex;
+  justify-content: center;
+}
+
+#steps {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.stepdescription {
+  display: inline-block;
+  background-color: #3cc;
+  border-radius: 5px;
+  width: 200px;
+  box-shadow: 10px 10px #a8ebe4;
+  text-align: center;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  position: relative;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.stepTitle {
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.stepdescription:hover {
+  top: -10px;
+}
+
+#mentorIdCards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.mentorIdCardsSpecific {
+  display: inline-block;
+  position: relative;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 35px;
+  margin-bottom: 65px;
+}
+
+.mentorIdCardsSpecific:hover {
+  top: -10px;
+}
+
+.mentorName {
+  background-color: #3cc;
+  border-radius: 5px;
+  width: 80px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-shadow: 5px 5px #a8ebe4;
+}
+
+.mentorImg {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+#enter {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+#getStartedHeader {
+  position: relative;
+  margin-top: 100px;
+}
+
+.loginIcon {
+  position: absolute;
+  top: -140%;
+  left: 50%;
+  transform: translate(-50%);
+  width: 70px;
+  height: 70px;
+}
+
+.enterForm {
+  display: inline-block;
+  position: relative;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  border: 3px solid #3cc;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 8px;
+  font-size: 18px;
+  height: 210px;
+}
+
+.enterType {
+  text-align: center;
+}
+
+label {
+  display: inline-block;
+  width: 150px;
+}
+
+.button {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#checkbox {
+  text-align: center;
+  font-size: 16px;
+  line-height: 3;
+}
+
+#footer {
+  text-align: center;
+  margin-top: 70px;
+  font-size: 14px;
+}
